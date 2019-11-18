@@ -4,6 +4,15 @@ def create_board():
     board = np.zeros((6,7))
     return board
 
+def drop_piece():
+    pass
+
+def is_valid_location(board, col):
+    pass
+    
+def get_next_open_row():
+    pass
+
 board = create_board()
 game_over = False
 turn = 0
